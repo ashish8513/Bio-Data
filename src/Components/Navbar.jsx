@@ -86,7 +86,7 @@ function Navbar() {
                 {/* mobile navbarRxCrossCircled RiMenu2Line */}
                 {
                     menu &&
-                    <div className='bg-white '>
+                    <div className='bg-white dark:bg-slate-900 dark:text-white '>
                         <ul className='md:hidden flex flex-col items-center justify-center h-screen space-y-5 font-bold '>
                             {
                                 navItems.map(({ id, text }) => (
