@@ -34,10 +34,10 @@ function Contact() {
                     <form onSubmit={handleSubmit(onSubmit)}
                         // action="https://getform.io/f/nadoexqb"
                         // method="POST"
-                        className='bg-slate-200 px-8 py-6 rounded-xl w-96'>
+                        className='bg-slate-200 px-8 py-6 rounded-xl w-96 dark:bg-slate-900 dark:text-white'>
                         <h1 className='text-3xl font-semibold '>Send your message</h1>
                         <div className='flex flex-col mb-4'>
-                            <label className='text-gray-700 block' htmlFor="name">Full Name</label>
+                            <label className='text-gray-700 block dark:bg-slate-900 dark:text-white' htmlFor="name">Full Name</label>
                             <input
                                 {...register("name", { required: true })}
                                 type="text"
@@ -49,7 +49,7 @@ function Contact() {
                             {errors.name && <span className='text-red-500 font-semibold'>This field is required</span>}
                         </div>
                         <div className='flex flex-col mb-4'>
-                            <label className='text-gray-700 block' htmlFor="name">Email:-</label>
+                            <label className='text-gray-700 block dark:bg-slate-900 dark:text-white' htmlFor="name">Email:-</label>
                             <input
                                 {...register("email", { required: true })}
                                 type="text"
@@ -61,7 +61,7 @@ function Contact() {
                             {errors.email && <span className='text-red-500 font-semibold'>This field is required</span>}
                         </div>
                         <div className='flex flex-col mb-4'>
-                            <label className='text-gray-700 block' htmlFor="name">Message</label>
+                            <label className='text-gray-700 block dark:bg-slate-900 dark:text-white' htmlFor="name">Message</label>
                             <textarea
                                 {...register("message", { required: true })}
                                 rows={5}

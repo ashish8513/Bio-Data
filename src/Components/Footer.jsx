@@ -4,7 +4,7 @@ import {FaLinkedin} from "react-icons/fa";
 import BacktoTop from '../Components/BacktoTop'
 export default function FooterCom() {
   return (
-    <Footer container className='border border-t-8 border-teal-500'>
+    <Footer container className='border border-t-8 border-teal-500 dark:bg-slate-900 dark:text-white'>
       <div className='w-full max-w-7xl mx-auto text-black'>
         <div className='grid w-full justify-between sm:flex md:grid-cols-1'>
           <div className='mt-5'>

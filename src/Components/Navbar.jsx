@@ -67,7 +67,7 @@ function Navbar() {
                             }
                         </div>
                     </div>
-                    <div className=''>
+                    <div className='pt-2'>
                         <label className="swap swap-rotate">
 
                             {/* this hidden checkbox controls the state */}

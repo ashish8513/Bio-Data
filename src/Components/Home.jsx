@@ -3,7 +3,7 @@ import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
-import { ReactTyped, Typed } from "react-typed";
+import { ReactTyped } from "react-typed";
 import Ashish from "../assets/1684768999057-01.jpeg"
 
 
